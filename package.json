@@ -1,0 +1,20 @@
+{
+  "name": "node-mailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Kavin Prasad K",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "node-mailer": "file:",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7"
+  }
+}
